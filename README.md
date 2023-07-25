@@ -1,6 +1,6 @@
-# Code for "Efficient Ensembling in continual learning"
+# Code for "Improving Online Continual Learning Performance and Stability With Temporal Ensemble"
 
-Code for the paper [Efficient Ensembling in continual learning](https://arxiv.org/abs/2306.16817), Soutif--Cormerais et. al., CoLLAs 2023.
+Code for the paper [Improving Online Continual Learning Performance and Stability With Temporal Ensemble](https://arxiv.org/abs/2306.16817), Soutif--Cormerais et. al., CoLLAs 2023.
 
 The code is based on [Pytorch](https://pytorch.org) and [Avalanche](https://avalanche.continualai.org).
 
