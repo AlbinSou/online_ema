@@ -1,9 +1,9 @@
 !!python/object:argparse.Namespace
 batch_size: 32
 clipping: 10000
-dataset: cifar100
+dataset: mini_imagenet
 device: cuda
-exp_name: cifar100_er_ed
+exp_name: mini_imagenet_rar
 gpu: 0
 lr: 0.1
 model: resnet18
@@ -12,13 +12,13 @@ nepochs: 3
 num_tasks: 20
 num_workers: 0
 optimizer: SGD
-results: ../results/cifar100
+results: ../results/mini_imagenet
 save_models: true
 scenario: new_classes_incremental
 schedule: false
 seed: 0
-strategy: er_ed
-memory_size: 2000
+strategy: er
+memory_size: 10000
 val_size: 0.05
 weight_decay: 0.0
 lmb: 1.0
@@ -29,3 +29,4 @@ eval_on_previous: true
 tensorboard: true
 every: 1
 eval_mode: iteration
+use_transforms: true

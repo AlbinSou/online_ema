@@ -3,7 +3,7 @@ batch_size: 32
 clipping: 10000
 dataset: cifar10
 device: cuda
-exp_name: cifar10_er_ed
+exp_name: cifar10_der
 gpu: 0
 lr: 0.1
 model: resnet18
@@ -17,7 +17,7 @@ save_models: true
 scenario: new_classes_incremental
 schedule: false
 seed: 0
-strategy: er_ed
+strategy: der
 memory_size: 1000
 val_size: 0.05
 weight_decay: 0.0
