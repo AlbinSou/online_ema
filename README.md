@@ -12,8 +12,13 @@ install the environment and update it using the environment file
 
 ```
 cd avalanchev3
-conda env create -f environment.yaml
+conda env create -f environment.yml
+conda env config vars set PYTHONPATH=online_ema.git_path:avalanchev3_path
 ```
+
+Change the data directory DATADIR inside toolkit/dataset.py to match the one on your system
+
+Create the results dir
 
 # How to use
 
