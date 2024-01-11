@@ -41,12 +41,12 @@ Please check the License file listed in this repository.
 # Cite
 
 ```
-@misc{soutifcormerais2023improving,
-      title={Improving Online Continual Learning Performance and Stability with Temporal Ensembles}, 
-      author={Albin Soutif--Cormerais and Antonio Carta and Joost Van de Weijer},
-      year={2023},
-      eprint={2306.16817},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{soutifcormerais2023improving,
+  title={Improving Online Continual Learning Performance and Stability with Temporal Ensembles},
+  author={Soutif--Cormerais, Albin and Carta, Antonio and Van de Weijer, Joost},
+  booktitle={Conference on Lifelong Learning Agents},
+  pages={828--845},
+  year={2023},
+  organization={PMLR}
 }
 ```
